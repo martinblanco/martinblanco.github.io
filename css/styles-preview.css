@@ -10840,7 +10840,7 @@ body:before {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #2a5555;
+  
   opacity: 0.7;
   z-index: 1;
 }
@@ -10883,7 +10883,7 @@ video.bg-video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.40);
+  background-color: rgba(0, 0, 0, 0.50);
 }
 .masthead .masthead-content {
   position: relative;
