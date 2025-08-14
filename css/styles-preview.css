@@ -10883,7 +10883,7 @@ video.bg-video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.40);
 }
 .masthead .masthead-content {
   position: relative;
@@ -10975,4 +10975,6 @@ video.bg-video {
   height: 100%;
   object-fit: cover;
   z-index: -1; /* para que quede de fondo */
+  object-fit: cover;
+  object-position: right top;
 }
