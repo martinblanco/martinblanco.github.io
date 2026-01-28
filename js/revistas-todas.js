@@ -8,28 +8,28 @@ const items = [
   },
   {
     title: '#2',
-    img: 'https://dummyimage.com/300x400/dee2e6/6c757d.jpg',
+    img: 'https://dummyimage.com/300x388/dee2e6/6c757d.jpg',
     badge: null,
     stars: 0,
     href: 'pdfs/numero2.pdf'
   },
   {
     title: '#3',
-    img: 'https://dummyimage.com/300x400/dee2e6/6c757d.jpg',
+    img: 'https://dummyimage.com/300x388/dee2e6/6c757d.jpg',
     badge: null,
     stars: 0,
     href: 'pdfs/numero3.pdf'
   },
   {
     title: '#4',
-    img: 'https://dummyimage.com/300x400/dee2e6/6c757d.jpg',
+    img: 'https://dummyimage.com/300x388/dee2e6/6c757d.jpg',
     badge: null,
     stars: 0,
     href: 'pdfs/numero4.pdf'
   },
   {
     title: '#5',
-    img: 'https://dummyimage.com/300x400/dee2e6/6c757d.jpg',
+    img: 'https://dummyimage.com/300x388/dee2e6/6c757d.jpg',
     badge: null,
     stars: 0,
     href: 'pdfs/numero5.pdf'
@@ -57,10 +57,10 @@ function createCardHTML({ title, img, badge, stars }) {
         <div class="text-center">
           <h5 class="fw-bolder mb-1">${title}</h5>
           ${renderStars(stars)}
+        <a href="" target="_blank" class="text-black">
+        <i class="fa-solid fa-download"></i>
+        </a>
         </div>
-      </div>
-      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent text-center">
-        <a class="btn btn-outline-dark mt-auto" href="#">Descargar PDF</a>
       </div>
     </div>
   `;
